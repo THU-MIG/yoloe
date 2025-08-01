@@ -1,0 +1,7 @@
+{
+    "model_name": "models/onnx/yolov8n-face-trt.txt",
+    "model_url": "odels/onnx/yolov8n-face-trt.onnx",
+    "model_input_size": 640,
+    "model_label": "models/onnx/yolov8n-face-trt.onnx",
+    "model_is_qat": false
+}

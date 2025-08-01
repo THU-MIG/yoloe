@@ -1,0 +1,29 @@
+[property]
+gpu-id=0
+net-scale-factor=0.0039215697906911373
+model-color-format=0
+onnx-file=/apps/deepstream-yolo-e2e/models/onnx/yolo11m-seg-trt.onnx
+model-engine-file=/apps/deepstream-yolo-e2e/models/engine/yolo11m-seg-trt-fp16-netsize-640-batch-1.engine
+labelfile-path=/apps/deepstream-yolo-e2e/models/onnx/yolo11m-seg-trt.txt
+batch-size=1
+force-implicit-batch-dim=0
+infer-dims=3;640;640
+# 0: FP32 1: INT8 2: FP16
+network-mode=0
+num-detected-classes=80
+interval=0
+gie-unique-id=1
+process-mode=1
+# 0: Detector 1: Classifier 2: Segmentation 3: Instance Segmentation
+network-type=3
+# 0：Group Rectange 1：DBSCAN 2：NMS 3:DBSCAN+NMS 4:None
+cluster-mode=4
+maintain-aspect-ratio=1
+symmetric-padding=1
+parse-bbox-instance-mask-func-name=NvDsInferYoloMask
+custom-lib-path=/opt/nvidia/deepstream/deepstream/lib/libnvds_infer_yolo.so
+output-instance-mask=1
+segmentation-threshold=0.5
+
+[class-attrs-all]
+pre-cluster-threshold=0.25

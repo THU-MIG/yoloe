@@ -1,0 +1,6 @@
+[submodule "nvdsinfer_yolo"]
+	path = nvdsinfer_yolo
+	url = https://github.com/levipereira/nvdsinfer_yolo
+[submodule "yolo_e2e"]
+	path = yolo_e2e
+	url = https://github.com/levipereira/yolo_e2e

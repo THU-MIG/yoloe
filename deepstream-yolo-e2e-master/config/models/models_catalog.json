@@ -1,0 +1,222 @@
+{
+  "COCO": {
+    "Description": "COCO dataset is a large-scale object detection and segmentation",
+    "Detection": {
+      "Nano": [
+        {
+          "model_arch": "YOLOv8",
+          "model_name": "yolov8n-trt"
+        },
+        {
+          "model_arch": "YOLOv9",
+          "model_name": "yolov9t-trt"
+        },
+        {
+          "model_arch": "YOLOv10",
+          "model_name": "yolov10n-trt"
+        },
+        {
+          "model_arch": "YOLO11",
+          "model_name": "yolo11n-trt"
+        }
+      ],
+      "Small": [
+        {
+          "model_arch": "YOLOv8",
+          "model_name": "yolov8s-trt"
+        },
+        {
+          "model_arch": "YOLOv9",
+          "model_name": "yolov9s-trt"
+        },
+        {
+          "model_arch": "YOLOv10",
+          "model_name": "yolov10s-trt"
+        },
+        {
+          "model_arch": "YOLO11",
+          "model_name": "yolo11s-trt"
+        }
+      ],
+      "Medium": [
+        {
+          "model_arch": "YOLOv8",
+          "model_name": "yolov8m-trt"
+        },
+        {
+          "model_arch": "YOLOv9",
+          "model_name": "yolov9m-trt"
+        },
+        {
+          "model_arch": "YOLOV10",
+          "model_name": "yolov10m-trt"
+        },
+        {
+          "model_arch": "YOLO11",
+          "model_name": "yolo11m-trt"
+        }
+      ],
+      "Balanced": [
+        {
+          "model_arch": "YOLOv9 QAT (SiLU)",
+          "model_name": "yolov9c-qat-trt"
+        },
+        {
+          "model_arch": "YOLOv9 QAT (ReLU)",
+          "model_name": "yolov9c-relu-qat-trt"
+        },
+        {
+          "model_arch": "YOLOv9",
+          "model_name": "yolov9c-trt"
+        },
+        {
+          "model_arch": "YOLOv10",
+          "model_name": "yolov10b-trt"
+        }
+      ],
+      "Large": [
+        {
+          "model_arch": "YOLOv8",
+          "model_name": "yolov8l-trt"
+        },
+        {
+          "model_arch": "YOLOv10",
+          "model_name": "yolov10l-trt"
+        },
+        {
+          "model_arch": "YOLO11",
+          "model_name": "yolo11l-trt"
+        }
+      ],
+      "Extra-large": [
+        {
+          "model_arch": "YOLOv8",
+          "model_name": "yolov8x-trt"
+        },
+        {
+          "model_arch": "YOLOv9",
+          "model_name": "yolov9e-trt"
+        },
+        {
+          "model_arch": "YOLOv10",
+          "model_name": "yolov10x-trt"
+        },
+        {
+          "model_arch": "YOLO11",
+          "model_name": "yolo11x-trt"
+        }
+      ]
+    },
+    "Segmentation": {
+      "Nano": [
+        {
+          "model_arch": "YOLOv8",
+          "model_name": "yolov8n-seg-trt"
+        },
+        {
+          "model_arch": "YOLO11",
+          "model_name": "yolo11n-seg-trt"
+        }
+      ],
+      "Small": [
+        {
+          "model_arch": "YOLOv8",
+          "model_name": "yolov8s-seg-trt"
+        },
+        {
+          "model_arch": "YOLO11",
+          "model_name": "yolo11s-seg-trt"
+        }
+      ],
+      "Medium": [
+        {
+          "model_arch": "YOLOv8",
+          "model_name": "yolov8m-seg-trt"
+        },
+        {
+          "model_arch": "YOLO11",
+          "model_name": "yolo11m-seg-trt"
+        }
+      ],
+      "Balanced": [
+        {
+          "model_arch": "YOLOv9",
+          "model_name": "yolov9c-seg-trt"
+        },
+        {
+          "model_arch": "YOLOv9 QAT (GELAN)",
+          "model_name": "yolov9c-seg-qat-trt"
+        }
+      ],
+      "Large": [
+        {
+          "model_arch": "YOLOv8",
+          "model_name": "yolov8l-seg-trt"
+        },
+        {
+          "model_arch": "YOLO11",
+          "model_name": "yolo11l-seg-trt"
+        }
+      ],
+      "Extra-large": [
+        {
+          "model_arch": "YOLOv8",
+          "model_name": "yolov8x-seg-trt"
+        },
+        {
+          "model_arch": "YOLO11",
+          "model_name": "yolo11x-seg-trt"
+        }
+      ]
+    }
+  },
+  "WIDERFace": {
+    "Description": "WIDER FACE dataset is a face detection dataset",
+    "Detection": {
+      "Nano": [
+        {
+          "model_arch": "YOLOv8",
+          "model_name": "yolov8n-face-trt"
+        },
+        {
+          "model_arch": "YOLOv10",
+          "model_name": "yolov10n-face-trt"
+        },
+        {
+          "model_arch": "YOLO11",
+          "model_name": "yolov11n-face-trt"
+        }
+      ],
+      "Small": [
+        {
+          "model_arch": "YOLOv10",
+          "model_name": "yolov10s-face-trt"
+        },
+        {
+          "model_arch": "YOLO11",
+          "model_name": "yolov11s-face-trt"
+        }
+      ],
+      "Medium": [
+        {
+          "model_arch": "YOLOv8",
+          "model_name": "yolov8m-face-trt"
+        },
+        {
+          "model_arch": "YOLOv10",
+          "model_name": "yolov10m-face-trt"
+        },
+        {
+          "model_arch": "YOLO11",
+          "model_name": "yolov11m-face-trt"
+        }
+      ],
+      "Large": [
+        {
+          "model_arch": "YOLOv8",
+          "model_name": "yolov8l-face-trt"
+        }
+      ]
+    }
+  }
+}

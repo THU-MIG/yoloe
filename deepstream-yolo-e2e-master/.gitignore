@@ -1,0 +1,57 @@
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+*.pt
+*.onnx
+*engine*
+libnvinfer*
+TensorRTPlugin/TensorRT
+.idea/
+*.pyc
+*.mp4
+__pycache__/
+*.py[cod]
+*$py.class
+# Environments
+.env
+.venv
+.idea
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+# Neural Network weights -----------------------------------------------------------------------------------------------
+weights/
+*.weights
+*.pt
+*.pb
+*.onnx
+*.engine
+*.mlmodel
+*.mlpackage
+*.torchscript
+*.tflite
+*.h5
+*_saved_model/
+*_web_model/
+*_openvino_model/
+*_paddle_model/
+*_ncnn_model/
+pnnx*
+# calibration image
+calibration_*.npy
+models/onnx/
+config/python_app/save_session.json
